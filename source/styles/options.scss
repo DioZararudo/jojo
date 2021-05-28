@@ -1,0 +1,18 @@
+@import "base/fonts";
+@import "base/reset";
+@import "base/variables";
+
+@import "~webext-base-css/webext-base.css";
+
+body {
+  color: $black;
+  background-color: $greyWhite;
+}
+
+#dio-gif {
+  position: absolute;
+  top: 100px;
+  left: 923px;
+  z-index: 10;
+  max-height: 200px;
+}
