@@ -41,17 +41,18 @@ const loadImages = () => {
 };
 
 const readyStateSolution = () => {
-  document.addEventListener('readystatechange', (state) => {
-    console.debug('state: ', state);
+  document.addEventListener('readystatechange', (event) => {
+    console.debug('state: ', event.target.readyState);
     console.debug('readyState: ', document.readyState);
 
-    switch (document.readyState) {
+    switch (event.target.readyState) {
       case 'interactive':
         stopLoading();
         loadImages();
         break;
       case 'complete':
-        // doStuff();
+        // stopLoading();
+        // loadImages();
         break;
       default:
         console.debug('default');
