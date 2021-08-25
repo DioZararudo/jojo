@@ -22,6 +22,9 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   console.emoji('🦄', response);
 
+  const manifest = chrome.runtime.getManifest();
+  document.getElementById('version').textContent = manifest.version;
+
   document.getElementById('github__button').addEventListener('click', () => {
     return openWebPage(
       'https://github.com/pathway27/stop-loading-za-warudo'
@@ -30,10 +33,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   document.getElementById('donate__button').addEventListener('click', () => {
     return openWebPage('https://ko-fi.com/pathway27');
-  });
-
-  document.getElementById('options__button').addEventListener('click', () => {
-    return openWebPage('options.html');
   });
 });
 
