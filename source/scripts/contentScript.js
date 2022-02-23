@@ -76,6 +76,9 @@ switch (document.location.origin) {
   case 'https://www.afr.com':
     domContentReadySolution();
     break;
+  case 'https://www.businessinsider.com':
+    domContentReadySolution();
+    break;
   default:
     console.debug('test');
     readyStateSolution();
