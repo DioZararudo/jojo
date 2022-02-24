@@ -2,11 +2,14 @@
 
 > Insert DIO Meme
 
-Stops certain websites from loading fully after main text/content is loaded
-skipping certain paywalls.
+Stops certain websites from loading fully after main text/content is loaded to stop unethical scripts loading to take your information or as to skip paywalls.
 
 - bloomberg.com
-- afr
+- afr.com
+- smh.com.au
+- nytimes.com
+- economist.com
+- businessinsider.com
 
 ## Proudly Uses Web Extension Starter
 

@@ -1,6 +1,6 @@
 {
   "name": "StopLoading-Za-Warudo",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Stop certain websites to fully load, skipping paywalls.",
   "private": true,
   "license": "MIT",
